@@ -1,0 +1,23 @@
+{
+  "name": "node-pg-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --forceExit"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "jest": "^24.8.0",
+    "knex": "^0.19.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.15",
+    "pg": "^7.12.1",
+    "uuid": "^3.3.2",
+    "uuid-v4": "^0.1.0"
+  }
+}
